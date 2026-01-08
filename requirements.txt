@@ -1,0 +1,22 @@
+# Core dependencies for viral movements analyzer
+pandas>=1.3.0
+sentence-transformers>=2.0.0
+openai-whisper>=20230314
+imagehash>=4.3.0
+pillow>=8.0.0
+requests>=2.25.0
+yt-dlp>=2023.1.6
+scikit-learn>=1.0.0
+
+# Monitoring system dependencies
+psutil>=5.8.0
+
+# Optional dependencies for enhanced features
+openpyxl>=3.0.0  # For Excel export
+matplotlib>=3.5.0  # For charts (future dashboard)
+flask>=2.0.0  # For web dashboard (future)
+
+# Development dependencies (optional)
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0

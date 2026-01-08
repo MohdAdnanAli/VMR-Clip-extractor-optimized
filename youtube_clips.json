@@ -1,0 +1,57 @@
+{
+  "clips": [
+    {
+      "id": "yt_gaming_001",
+      "title": "INSANE Gaming Moment - You Won't Believe This!",
+      "platform": "youtube",
+      "views": 250000,
+      "views_last_24h": 45000,
+      "likes": 12500,
+      "comments": 2800,
+      "shares": 1200,
+      "age_hours": 8.5,
+      "growth_6h": 4.2,
+      "transcript": "Epic gaming moment with incredible skill and funny reactions",
+      "thumbnail_url": "https://img.youtube.com/vi/gaming_001/maxresdefault.jpg",
+      "url": "https://youtube.com/watch?v=gaming_001",
+      "scores": {
+        "virality": 0.87,
+        "relevance": 0.94,
+        "final_score": 22.3
+      },
+      "metadata": {
+        "processed_at": "2026-01-08T11:10:57.190237",
+        "niche_match": [
+          "gaming",
+          "funny"
+        ],
+        "reactability": 0.9
+      }
+    }
+  ],
+  "summary": {
+    "total_clips": 3,
+    "filtered_clips": 0,
+    "processing_time": 0.0,
+    "timestamp": "2026-01-08T11:10:57.190272",
+    "statistics": {
+      "total_clips": 3,
+      "avg_score": 18.733333333333334,
+      "max_score": 22.3,
+      "min_score": 14.2,
+      "avg_views": 175000.0,
+      "max_views": 250000,
+      "platforms": {
+        "youtube": 1,
+        "tiktok": 1,
+        "instagram": 1
+      },
+      "high_score_clips": 2,
+      "trending_clips": 2
+    }
+  },
+  "exported_at": "2026-01-08T11:10:57.219069",
+  "filters_applied": {
+    "platform": "youtube"
+  }
+}

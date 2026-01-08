@@ -1,0 +1,111 @@
+{
+  "clips": [
+    {
+      "id": "yt_gaming_001",
+      "title": "INSANE Gaming Moment - You Won't Believe This!",
+      "platform": "youtube",
+      "views": 250000,
+      "views_last_24h": 45000,
+      "likes": 12500,
+      "comments": 2800,
+      "shares": 1200,
+      "age_hours": 8.5,
+      "growth_6h": 4.2,
+      "transcript": "Epic gaming moment with incredible skill and funny reactions",
+      "thumbnail_url": "https://img.youtube.com/vi/gaming_001/maxresdefault.jpg",
+      "url": "https://youtube.com/watch?v=gaming_001",
+      "scores": {
+        "virality": 0.87,
+        "relevance": 0.94,
+        "final_score": 22.3
+      },
+      "metadata": {
+        "processed_at": "2026-01-08T11:10:57.190237",
+        "niche_match": [
+          "gaming",
+          "funny"
+        ],
+        "reactability": 0.9
+      }
+    },
+    {
+      "id": "tt_meme_002",
+      "title": "When you realize it's Monday (sad face)",
+      "platform": "tiktok",
+      "views": 180000,
+      "views_last_24h": 35000,
+      "likes": 8900,
+      "comments": 1500,
+      "shares": 2100,
+      "age_hours": 12.0,
+      "growth_6h": 3.8,
+      "transcript": "Relatable Monday mood meme with perfect timing",
+      "thumbnail_url": "https://tiktok.com/thumb/meme_002.jpg",
+      "url": "https://tiktok.com/@user/video/meme_002",
+      "scores": {
+        "virality": 0.82,
+        "relevance": 0.88,
+        "final_score": 19.7
+      },
+      "metadata": {
+        "processed_at": "2026-01-08T11:10:57.190257",
+        "niche_match": [
+          "memes",
+          "relatable"
+        ],
+        "reactability": 0.85
+      }
+    },
+    {
+      "id": "ig_gaming_003",
+      "title": "Pro Gamer Destroys Noobs",
+      "platform": "instagram",
+      "views": 95000,
+      "views_last_24h": 18000,
+      "likes": 4200,
+      "comments": 890,
+      "shares": 320,
+      "age_hours": 18.5,
+      "growth_6h": 2.9,
+      "transcript": "Professional gaming highlights with amazing plays",
+      "thumbnail_url": "https://instagram.com/p/gaming_003/media",
+      "url": "https://instagram.com/p/gaming_003/",
+      "scores": {
+        "virality": 0.65,
+        "relevance": 0.91,
+        "final_score": 14.2
+      },
+      "metadata": {
+        "processed_at": "2026-01-08T11:10:57.190264",
+        "niche_match": [
+          "gaming",
+          "pro"
+        ],
+        "reactability": 0.75
+      }
+    }
+  ],
+  "summary": {
+    "total_clips": 3,
+    "filtered_clips": 0,
+    "processing_time": 0.0,
+    "timestamp": "2026-01-08T11:10:57.190272",
+    "statistics": {
+      "total_clips": 3,
+      "avg_score": 18.733333333333334,
+      "max_score": 22.3,
+      "min_score": 14.2,
+      "avg_views": 175000.0,
+      "max_views": 250000,
+      "platforms": {
+        "youtube": 1,
+        "tiktok": 1,
+        "instagram": 1
+      },
+      "high_score_clips": 2,
+      "trending_clips": 2
+    }
+  },
+  "exported_at": "2026-01-08T11:10:57.191499",
+  "filters_applied": {}
+}

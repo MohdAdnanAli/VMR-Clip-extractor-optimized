@@ -1,0 +1,52 @@
+{
+  "log_level": "INFO",
+  "database_path": "monitoring.db",
+  "log_file_path": "monitoring.log",
+  "max_log_file_size": 10485760,
+  "log_retention_days": 90,
+  "summary_retention_days": 365,
+  "dashboard_port": 5000,
+  "dashboard_host": "localhost",
+  "update_interval": 5,
+  "performance_threshold_multiplier": 1.5,
+  "error_rate_threshold": 0.1,
+  "error_rate_window": 10,
+  "alerts": [
+    {
+      "name": "fetch_failure",
+      "condition": "event_type == 'fetch_failed'",
+      "threshold": 1.0,
+      "time_window": 2,
+      "notification_channels": [
+        "file",
+        "console"
+      ],
+      "enabled": true,
+      "cooldown_period": 5
+    },
+    {
+      "name": "performance_degradation",
+      "condition": "execution_time > baseline * 1.5",
+      "threshold": 1.5,
+      "time_window": 10,
+      "notification_channels": [
+        "file",
+        "console"
+      ],
+      "enabled": true,
+      "cooldown_period": 5
+    },
+    {
+      "name": "high_error_rate",
+      "condition": "error_rate > 0.1",
+      "threshold": 0.1,
+      "time_window": 10,
+      "notification_channels": [
+        "file",
+        "console"
+      ],
+      "enabled": true,
+      "cooldown_period": 5
+    }
+  ]
+}
